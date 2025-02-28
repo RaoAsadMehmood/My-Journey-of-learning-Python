@@ -1,4 +1,4 @@
-🐍 My Python Adventure
+🐍 My Python Adventure (Pythonistan)
 Hey there! Welcome to my Python learning odyssey!  This repository is where I log my daily grind with Python, breaking down my progress into bite-sized, day-by-day chunks.
 
 Every day, I dive into fresh concepts, tackle problems, and mess around with Python in real-world ways to sharpen my skills.

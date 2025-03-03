@@ -33,3 +33,17 @@ print(student.get("name"))
 # Example Code:
 student["name"] = "Saad Naseem"
 print(student["name"])
+
+
+
+# 5. Deleting Items
+# You can remove a key-value pair using the del keyword or the pop() method.
+
+# Note that pop() returns the value of the removed key-value pair, whereas del does not return anything.
+
+# You can also use pop() with a default value, in case the key is not found in the dictionary:
+
+# Example Code:
+
+student.pop("age")
+print(student)

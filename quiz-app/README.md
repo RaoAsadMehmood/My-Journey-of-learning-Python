@@ -22,54 +22,82 @@ Pakistan-Quiz-App/
 ├── quiz_app.py       # Main application code
 ├── README.md        # This file
 └── requirements.txt # Dependencies (Streamlit)
+---
 
 
-## 🚀 How to Run the App
 
-### Prerequisites
-- Python 3.8+
-- Streamlit (`pip install streamlit`)
+## Getting Started
 
-### Steps
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/RaoAsadMehmood/Pakistan-Quiz-App.git
-   cd Pakistan-Quiz-App
-Install Dependencies:
-    ```bash
+### 1️⃣ Install UV
 
-pip install -r requirements.txt
-Run the App:
-    ```bash
+First, install **UV** (if not already installed):
 
-streamlit run quiz_app.py
-Open your browser at http://localhost:8501 to start quizzing!
-## 📚 **Sample Questions**
-Here’s a sneak peek at what you’ll encounter:
+```sh
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
 
-"What is the capital of Pakistan?" (Options: Karachi, Lahore, Peshawar, Islamabad)
-"Which river is known as the lifeline of Pakistan?" (Options: Ravi, Chenab, Indus, Jhelum)
-"Who was the first female Prime Minister of Pakistan?" (Options: Fatima Jinnah, Benazir Bhutto, Hina Rabbani Khar, Maryam Nawaz)
-(Explore the full list in quiz_app.py!)
+For Windows:
 
-## 🌟**Why This Exists**
-To create an engaging way to learn about Pakistan.
-To practice Python and Streamlit development.
-To share a fun, educational tool with the community.
+```sh
+powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"
+```
 
-## 🤝 **Contributing**
-Love quizzes or have a great question to add? Feel free to:
+Verify installation:
 
-### **Fork this repo**
-Add your changes (e.g., new questions in the questions list).
-Submit a pull request!
-Suggestions and feedback are always welcome.
+```sh
+uv --version
+```
+
+---
+
+### 2️⃣ Create and Initialize the Project
+
+```sh
+uv init quiz-app
+cd quiz-app
+```
+
+---
+
+### 3️⃣ Install Sreamlit (Dependency)
+
+```sh
+uv add streamlit
+```
+
+---
+
+### 4️⃣ Activate UV Virtual Environment (Windows)
+
+```sh
+.venv\Scripts\activate
+```
+
+For Linux/macOS:
+
+```sh
+source .venv/bin/activate
+```
+
+---
+
+### 5️⃣ Run Quiz App
+
+```sh
+streamlit run main.py
+```
+
+🎉 That’s it! Your Quiz App is ready to use 🚀
 
 ## 📌 Connect With Me
-(GitHub): [https://github.com/RaoAsadMehmood]
-(LinkedIn): [https://www.linkedin.com/in/rao-asad-mehmood/]
-(Email): [asadrao2489@gmail.com]
+
+- **GitHub**: [RaoAsadMehmood](https://github.com/RaoAsadMehmood)
+- **LinkedIn**: [Rao Asad Mehmood](https://www.linkedin.com/in/rao-asad-mehmood/)
+- **Email**: [asadrao2489@gmail.com](mailto:asadrao2489@gmail.com)
 Let’s learn and quiz together! 🐍🔥
 
-## 📝 **License**
-This project is licensed under the (MIT License)[License]. See below for details:
+## 📝 License
+
+This project is licensed under the [MIT License](LICENSE). See the [full license text](https://opensource.org/licenses/MIT) for more details.
+
+---
